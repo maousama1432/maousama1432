@@ -1,0 +1,8 @@
+.cabecalho {
+    display: flex;
+    height: 100px;
+}
+
+.cabecalho h1 {
+    margin-top: 10px;
+}
