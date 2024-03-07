@@ -1,10 +1,8 @@
-/** @type {import('next').NextConfig} */   
+/** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: {
-            "www.ifms.edu.br" : 1,
-                }, 
-            }
-        }
-
-module.exports = nextConfig
+      domains: ['www.ifms.edu.br'],
+    },
+  }
+  
+  module.exports = nextConfig

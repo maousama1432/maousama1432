@@ -1,6 +1,6 @@
 import Menu from "./componentes/Menu";
 import Footer from "./componentes/Footer";
-import NotFound from "maousama1432/src/app/not.found"; // Atualize o caminho aqui
+import NotFound from "./app/not.found";
 
 export const metadata = {
   title: "Create Next App",
