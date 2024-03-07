@@ -8,7 +8,7 @@ export default function Menu(){
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <Link href="/"><Image 
+                        <Link href="/"><Image
                             width={100}
                             height={100}
                             src={"https://www.ifms.edu.br/marcaifms.png"} /></Link>
@@ -17,7 +17,7 @@ export default function Menu(){
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <   div class="navbar-nav">
+                        <div class="navbar-nav">
                             <Link href="/" className="nav-link active">Home</Link>
                             <Link href="/registro" className="nav-link">Registrar</Link>
                         </div>
