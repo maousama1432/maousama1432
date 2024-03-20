@@ -1,10 +1,10 @@
-import Link from "next/link"
 
-export default function NotFound() {
-    return(
-        <div>
-            <h1>algo de errado, não está certo</h1>
-            <Link href="/">Retornar para Home</Link>
-        </div>
+export default async function Home() {
+
+    return (
+      <main className="text-center py-5 mb-5">
+        <h3>&lt;--  HOME  --&gt;</h3>
+        <p>maousama1432</p>
+      </main>
     )
-}
+  }

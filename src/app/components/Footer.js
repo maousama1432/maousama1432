@@ -1,22 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
+import styles from "./footer.module.css"
 
 export default function Footer() {
     return(
-        <footer>
-            <nav className="navbar bg-body-tertiary">
-                <div className="container-fluid">
-                    <Link href="https://ead.ifms.edu.br/">
-                        <a>
-                            <Image
-                                width={100}
-                                height={100}
-                                src={"https://h5p.org/sites/default/files/moodle-icon-page_0.png"} />
-                        </a>
-                    </Link>
-                    <p>Fotter</p>
+        <footer className={styles.footer}>
+            <nav class="navbar">
+                <div class="container-fluid justify-content-center">
+                    <Link href="https://ead.ifms.edu.br/"><Image 
+                        width={50}
+                        height={50}
+                        src={"https://h5p.org/sites/default/files/moodle-icon-page_0.png"} /></Link>
                 </div>
             </nav>
         </footer>
     );
-}
+};

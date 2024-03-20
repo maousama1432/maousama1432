@@ -1,3 +1,3 @@
 export default function Registro(){
-    return( <h1>Página de Registro!</h1>);
+    return( <h3 className="text-center">&lt;--  Página de Registro!  --&gt;</h3>);
 }
